@@ -1,0 +1,375 @@
+.course-details {
+    margin-top: 100px;
+    padding: 100px 0 130px;
+    position: relative;
+    background-color: #f6fafc;
+    background-image: url('../../static/images/academy/free-background.png');
+    background-repeat: no-repeat;
+    background-size: 94% auto;
+    background-position: center 180px;
+    font-family: Montserrat, sans-serif;
+    color: #3d474b;
+}
+
+.description h1 {
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.71;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.description h4 {
+    display: block;
+    width: 70%;
+    margin: 55px auto 0 auto;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.modules article {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.modules article .description {
+    box-sizing: border-box;
+    width: 610px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 30px 60px 40px 40px;
+    box-shadow: 5px 5px 13px 0 rgba(218, 225, 228, 0.5);
+    background-color: white;
+}
+
+.modules article .description h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.modules article .description h3 span {
+    display: inline-block;
+    font-style: italic;
+    color: #52a6c4;
+}
+
+.modules article .description p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: justify;
+}
+
+.modules article .description a.apply {
+    width: 100%;
+    position: static;
+    transform: none;
+    margin-top: 40px;
+}
+
+.modules article .properties {
+    width: 400px;
+}
+
+.modules article .properties .duration {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0 15px 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #46dcc0, #52a6c4);
+    border-image-slice: 1;
+    box-shadow: 5px 5px 20px 0 #dae1e4;
+    background-color: white;
+}
+
+.modules article .properties .duration img {
+    margin-right: 15px;
+}
+
+.modules article .properties .duration p {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.modules article .properties .structure {
+    margin-top: 10px;
+    padding: 20px 20px 20px 30px;
+    background-color: white;
+    box-shadow: 5px 5px 20px 0 #dae1e4;
+}
+
+.modules article .properties li {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.modules article .properties li:before {
+    width: 6px;
+    height: 10px;
+    margin-right: 10px;
+    content: "x";
+    color: transparent;
+    background-size: 100% 100%;
+    background-image: url("../../static/images/academy/course-strucutre-bullet.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.course-details a.apply {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media screen and (min-width: 640px) and (max-width: 1199px) {
+    .description h1 {
+        font-size: 32px;
+        line-height: 0.94;
+    }
+
+    .description h4 {
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 1.67;
+    }
+
+    .modules {
+        padding: 0 10px;
+    }
+
+    .modules article .description h3 {
+        font-size: 22px;
+        line-height: 1.36;
+    }
+
+    .requirements h1 {
+        font-size: 32px;
+        line-height: 0.94;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    .course-details {
+        padding: 80px 0 95px;
+        background-size: 125% auto;
+    }
+
+    .modules article {
+        margin-bottom: 50px;
+    }
+
+    .modules article .description {
+        width: 560px;
+    }
+
+    .modules article .description p {
+        font-size: 15px;
+        line-height: 1.73;
+    }
+
+    .modules article .properties {
+        width: 370px;
+    }
+
+    .modules article .properties .duration p {
+        font-size: 17px;
+        line-height: 1.76;
+    }
+
+    .modules article .properties li {
+        font-size: 15px;
+        line-height: 2.13;
+    }
+
+    .modules article .properties li:before {
+        width: 5px;
+        height: 8px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .course-details {
+        margin-top: 80px;
+        padding: 50px 0 75px;
+    }
+
+    .modules article .properties .duration {
+        padding: 10px 0 10px 20px;
+    }
+
+    .modules article .properties .duration img {
+        width: 26px;
+    }
+
+    .modules article .properties .duration p {
+        font-size: 14px;
+        line-height: 2.14;
+    }
+
+    .modules article .properties .structure {
+        padding: 20px;
+    }
+
+    .modules article .properties li {
+        font-size: 14px;
+        line-height: 2.29;
+    }
+
+    .modules article .properties li:before {
+        width: 5px;
+        height: 8px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 959px) {
+    .course-details {
+        background-size: auto 800px;
+        background-position: center 210px;
+    }
+
+    .description h4 {
+        max-width: 450px;
+        margin: 30px auto 0;
+    }
+
+    .modules article {
+        position: relative;
+        width: 100%;
+        max-width: 620px;
+    }
+
+    .modules article:first-of-type {
+        margin-bottom: 40px;
+    }
+
+    .modules article:nth-of-type(2) {
+        margin-bottom: 160px;
+    }
+
+    .modules article:nth-of-type(3) {
+        margin-bottom: 90px;
+    }
+
+    .modules article:last-of-type {
+        margin-bottom: 40px;
+    }
+
+    .modules article .description {
+        width: 500px;
+        padding-left: 30px;
+    }
+
+    .modules article .description p {
+        width: 280px;
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 1.86;
+    }
+
+    .modules article .properties {
+        position: absolute;
+        top: 90px;
+        left: 340px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .course-details {
+        padding: 50px 0 65px;
+        background-size: auto 1000px;
+    }
+
+    .description h1 {
+        font-size: 28px;
+        line-height: 1.07;
+    }
+
+    .description h4 {
+        max-width: 250px;
+        margin: 15px auto 0;
+        font-size: 14px;
+        line-height: 1.43;
+    }
+
+    .modules article {
+        width: 100%;
+        max-width: 340px;
+        margin-bottom: -60px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .modules article .description {
+        width: 320px;
+        padding: 25px 20px 120px 20px;
+    }
+
+    .modules article .description h3 {
+        font-size: 16px;
+        line-height: 1.38;
+    }
+
+    .modules article .description p {
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 1.43;
+    }
+
+    .modules article .properties {
+        position: relative;
+        left: 60px;
+        bottom: 100px;
+        width: 280px;
+    }
+}

@@ -1,0 +1,256 @@
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 100px 0 120px;
+}
+
+.additional-info > h1 {
+    margin-bottom: 60px;
+}
+
+.lecturers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 60px;
+}
+
+.lecturers article {
+    box-sizing: border-box;
+    position: relative;
+    min-width: 560px;
+    padding-top: 25px;
+}
+
+.lecturers article:first-of-type {
+    margin-right: 35px;
+}
+
+.lecturers article img {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 180px;
+    padding: 10px;
+    background-color: white;
+}
+
+.lecturers article .info {
+    box-sizing: border-box;
+    max-width: 530px;
+    height: 100%;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(to right, #46dcc0, #52a6c4);
+    border-image-slice: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lecturers article .info h5 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.lecturers article .info h6 {
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.lecturers article .info p {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.lecturers article .badge {
+    box-sizing: border-box;
+    height: 155px;
+    padding: 40px 25px 15px 170px;
+}
+
+.lecturers article .bio {
+    padding: 10px 35px 35px;
+}
+
+.media {
+    display: none;
+    margin-top: 100px;
+}
+
+.media h1 {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+
+    .lecturers article {
+        width: 450px;
+        min-width: auto;
+    }
+
+    .lecturers article:first-of-type {
+        margin-right: 30px;
+    }
+
+    .lecturers article img {
+        width: 130px;
+        padding: 5px;
+    }
+
+    .lecturers article .info {
+        max-width: 430px;
+        min-height: 0;
+    }
+
+    .lecturers article .info h5 {
+        font-size: 17px;
+        line-height: 1.41;
+    }
+
+    .lecturers article .info h6 {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+
+    .lecturers article .badge {
+        box-sizing: border-box;
+        height: 115px;
+        padding: 20px 25px 15px 130px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .additional-info {
+        padding-bottom: 80px;
+    }
+
+    .lecturers article:first-of-type {
+        margin-right: 0px;
+    }
+
+    .lecturers article img {
+        width: 120px;
+        padding: 5px;
+    }
+
+    .lecturers article .info {
+        min-height: 0;
+    }
+
+    .lecturers article .badge {
+        height: 115px;
+        padding: 15px 25px 15px 115px;
+    }
+
+    .lecturers article .info h6 {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 959px) {
+    .additional-info > h1 {
+        margin-bottom: 30px;
+    }
+
+    .lecturers {
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0 30px;
+    }
+
+    .lecturers article {
+        width: 100%;
+        margin: 0 auto 35px auto;
+    }
+
+    .lecturers article img {
+        width: 120px;
+        padding: 5px;
+    }
+
+    .lecturers article .info {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+
+    .lecturers article .badge {
+        padding: 15px 25px 15px 115px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .additional-info h1 {
+        margin-bottom: 30px;
+    }
+
+    .lecturers {
+        display: block;
+        padding: 0 10px;
+    }
+
+    .lecturers article {
+        min-width: 280px;
+        padding-top: 48px;
+        margin: 0 auto 35px auto;
+    }
+
+    .lecturers article img {
+        left: 50%;
+        top: 0;
+        width: 96px;
+        padding: 5px;
+        transform: translateX(-50%);
+    }
+
+    .lecturers article .info {
+        margin: 0 auto;
+        padding: 55px 20px 25px 20px;
+        background-color: transparent;
+    }
+
+    .lecturers article .info .bio {
+        padding: 0;
+    }
+
+    .lecturers article .info h5, .lecturers article .info h6 {
+        text-align: center;
+    }
+
+    .lecturers article .info p {
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: justify;
+    }
+
+    .lecturers article .badge {
+        height: auto;
+        padding: 0;
+    }
+}

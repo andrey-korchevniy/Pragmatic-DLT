@@ -1,0 +1,47 @@
+header nav {
+    border: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px 30px 0 120px;
+    background-color: #f6fafc;
+}
+
+main h1 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3d474b;
+}
+
+main > article {
+    max-width: 780px;
+    margin-bottom: 40px;
+}
+
+main > article h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+main > article p {
+    margin-bottom: 20px;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #3d474b;
+}

@@ -1,0 +1,135 @@
+a.apply {
+    width: 360px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #ed4240;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 60px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.apply.academy-kyiv {
+    width: 420px;
+}
+
+a.apply.online {
+    width: 440px;
+}
+
+.list h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.71;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.list ul {
+    box-sizing: border-box;
+    width: 700px;
+    margin: 40px auto 0;
+    padding: 20px 0 20px 35px;
+    border-style: solid;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #46dcc0, #52a6c4);
+    border-image-slice: 1;
+}
+
+.list p {
+    margin-bottom: 10px;
+}
+
+.list li {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.list li:before {
+    width: 6px;
+    height: 10px;
+    margin-right: 10px;
+    content: "x";
+    color: transparent;
+    background-size: 100% 100%;
+    background-image: url("../../static/images/academy/course-bullet-red.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.list.blue-bullet li:before {
+    background-image: url("../../static/images/academy/course-bullet-blue.svg");
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    a.apply, a.apply.academy-kyiv, a.apply.online {
+        font-size: 22px;
+    }
+
+    .list li {
+        font-size: 15px;
+        line-height: 2.13;
+    }
+
+    .list li:before {
+        width: 5px;
+        height: 8px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .list li {
+        font-size: 14px;
+        line-height: 2.14;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 959px) {
+    a.apply, a.apply.academy-kyiv, a.apply.online {
+        width: 370px;
+    }
+
+    .list ul {
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    a.apply, a.apply.academy-kyiv, a.apply.online {
+        width: 280px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 48px;
+    }
+
+    .list {
+        padding: 0 10px;
+    }
+
+    .list h1 {
+        margin-top: 10px;
+        font-size: 28px;
+        line-height: 1.07;
+    }
+
+    .list ul {
+        margin-top: 30px;
+        padding: 20px;
+        width: 100%;
+    }
+}

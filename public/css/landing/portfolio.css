@@ -1,0 +1,141 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-image: url('/images/illustration-mobile-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio .content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.portfolio .heading {
+  display: block;
+  align-self: left;
+  padding-top: 15px;
+}
+
+.portfolio .video {
+  width: 60%;
+  height: fit-content;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-image-source: linear-gradient(to right, #46dcc0, #52a6c4);
+  border-image-slice: 1;
+}
+
+.portfolio .text {
+  box-sizing: border-box;
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.portfolio .text h1 {
+  text-align: left;
+}
+
+.portfolio .text p {
+  margin-top: 15px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #3d474b;
+}
+
+.portfolio .text button {
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #ed4240;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio .content {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .portfolio > .heading {
+    display: inline;
+  }
+
+  .portfolio .video {
+    width: 80%;
+    margin: 2% 10%;
+    padding: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, #46dcc0, #52a6c4);
+    border-image-slice: 1;
+  }
+
+  .portfolio .video iframe {
+    height: 375px;
+  }
+
+  .portfolio .text {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+  }
+
+  .portfolio .text h1 {
+  }
+
+  .portfolio .text p {
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  .portfolio .text button {
+    display: block;
+    width: 180px;
+    height: 48px;
+    margin: 20px auto 0 auto;
+    font-size: 16px;
+    line-height: 1.88;
+  }
+  /* In mobile move we only display portfolio content if it is structured as video/photo followed by text. We hide portfolio content if it is structured as first tex and then video/photo.*/
+  #venbest {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .portfolio-video {
+    flex: 0 0 200px;
+  }
+
+  .portfolio .video iframe {
+    height: 200px;
+  }
+}

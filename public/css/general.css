@@ -1,0 +1,147 @@
+body, h1, h2, h3, h4, h5, h6, p, a, ul, li, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button, img {
+    user-select: none;
+}
+
+section {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.content {
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+}
+
+.logo h1 {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: #3d474b;
+}
+
+.logo h1 span {
+    font-weight: 300;
+}
+
+.video-large {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 820px;
+    height: 480px;
+    margin: 45px auto 105px auto;
+    padding: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, #46dcc0, #52a6c4);
+    border-image-slice: 1;
+}
+
+h1.heading {
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3d474b;
+}
+
+h2.heading {
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+h3.heading {
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3d474b;
+}
+
+@media screen and (max-width: 959px) {
+    .video-large {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    h1.heading {
+        font-size: 32px;
+        line-height: 0.94;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video-large {
+        height: 400px;
+    }
+
+    h2.heading {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .additional-info h1 {
+        font-size: 28px;
+        line-height: 1.07;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1.heading {
+        font-size: 28px;
+        line-height: 1.36;
+    }
+
+    .video-large {
+        height: 320px;
+    }
+}
