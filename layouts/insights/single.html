@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{- partial "insights/article-head.html" -}}
+  <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    {{- partial "fb-sdk-script.html" -}}
+
+    <!-- header --->
+    {{- partial "insights/insights-header.html" -}}
+
+    <!-- main -->
+    <main>
+      <div
+        class="bg"
+        style="
+          background-image: url('{{ .Params.image}}');
+        "></div>
+
+      <section class="insight">{{ .Content }}</section>
+    </main>
+
+    <!-- Section Banner -->
+    {{ partial "insights/banner.html" }}
+
+    <!-- footer -->
+    {{- partial "footer.html" -}}
+  </body>
+</html>

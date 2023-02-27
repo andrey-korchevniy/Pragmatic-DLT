@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    min-height: 100%;
+}
+
+header nav {
+    border: none;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    padding-bottom: 120px;
+    background-color: #f6fafc;
+}
+
+h1 {
+    max-width: 650px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3d474b;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3d474b;
+}
+
+.gform {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.gform h1 {
+    margin-bottom: 5px;
+}
+
+.gform h3 {
+    margin-bottom: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.gform label {
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3d474b;
+}
+
+.gform label span {
+    color: #ff0000;
+}
+
+.inputs input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: solid 1px #979797;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.inputs input:last-of-type {
+    margin-bottom: 25px;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.conditions:last-of-type {
+    margin-bottom: 20px;
+}
+
+.conditions input {
+    margin-right: 10px;
+}
+
+.conditions p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.conditions p > a {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.gform button[type="submit"] {
+    width: 360px;
+    height: 60px;
+    background-color: #ed4240;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.gform h5 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.pay {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pay h1 {
+    margin-bottom: 30px;
+}
+
+.pay h3 {
+    margin-bottom: 60px;
+}
+
+.pay form {
+    display: none;
+}
+
+.pay .payment-options {
+    margin-bottom: 10px;
+}
+
+.pay button {
+    width: 260px;
+    height: 60px;
+    margin: 0 10px;
+    background-color: #ed4240;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.pay p {
+    max-width: 445px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.success-enrollment {
+    flex-grow: 1;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color: #f6fafc;
+}
+
+.success-enrollment img {
+    margin-bottom: 20px;
+}
+
+.success-enrollment h1 {
+    margin-bottom: 20px;
+}
+
+.pay-bitcoin {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pay-bitcoin {
+    padding-top: 20px;
+}
+
+.pay-bitcoin img {
+    margin-bottom: 40px;
+}
+
+.pay-bitcoin h3 {
+    margin-bottom: 20px;
+}
+
+.pay-bitcoin h3:last-child {
+    max-width: 100%;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .gform label {
+        font-size: 16px;
+    }
+
+    .conditions p {
+        font-size: 16px;
+    }
+
+    .pay .payment-options {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pay button {
+        margin-bottom: 20px;
+    }
+}
+
+h1 .online-highlight {
+    color: #ed4240;
+    font-style: italic;
+}

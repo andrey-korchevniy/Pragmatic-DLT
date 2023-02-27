@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{- partial "insights/insights-head.html" -}}
+  <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    {{- partial "fb-sdk-script.html" -}}
+
+    <!-- header --->
+    {{- partial "insights/insights-header.html" -}}
+
+    <!-- Section Hero -->
+    {{- partial "insights/section-insights-hero.html" -}}
+
+    <!-- main -->
+    <main>
+      <ul class="content">
+        {{ range .Pages.ByPublishDate.Reverse}}
+        <li>
+          <a href="{{ .RelPermalink}}">
+            <!-- <img
+              src="{{ .Params.image | absURL }}"
+              alt="img"
+              class="thumbnail" /> -->
+            <div
+              class="thumbnail"
+              style="background-image: url('{{ .Params.imagelist | absURL }}')"></div>
+            <div class="insight-preview">
+              <div>
+                <h3 class="heading">{{ .Title}}</h3>
+                <p>{{ .Description}}</p>
+              </div>
+              <p class="date">{{ .Date.Format "January 2, 2006"}}</p>
+            </div>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </main>
+
+    <!-- footer -->
+    {{- partial "footer.html" -}}
+  </body>
+</html>

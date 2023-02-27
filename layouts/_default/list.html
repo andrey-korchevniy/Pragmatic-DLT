@@ -1,0 +1,34 @@
+{{ define "main"}} {{ .Title}}
+<ul>
+  {{ range .Pages.ByPublishDate.Reverse }}
+
+  <li>
+    <a href="{{ .RelPermalink }}">
+      <div
+        class="thumbnail"
+        style="
+          background-image: url('/images/insights/main-block-chain.png');
+        "></div>
+      <div class="insight-preview">
+        <div>
+          <h3 class="heading">
+            Clear Communication and Dynamic Agile Methodology Makes Pragmatic
+            DLT Stand out Exclusively at GoodFirms
+          </h3>
+
+          <p>
+            Focusing on providing helpful, transparent advice and high-quality
+            Blockchain solutions to the clients in different geographies
+            facilitates Pragmatic DLT as the top Blockchain solutions provider
+            in Canada at GoodFirms.
+          </p>
+        </div>
+
+        <p class="date">July 21, 2019</p>
+      </div>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+
+{{end}}

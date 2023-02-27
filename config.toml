@@ -1,0 +1,8 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Pragmatic DLT'
+enableRobotsTXT = true
+relativeURLs = true
+contentDir = "content"
+
+
