@@ -1,0 +1,129 @@
+@import url('general.css');
+@import url('header.css');
+@import url('footer.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.content {
+  max-width: 1100px;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding-top: 100px;
+  background-image: url('../images/branded-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg > h2 {
+  max-width: 650px;
+  margin-top: 25px;
+}
+
+main {
+  padding: 85px 20px 120px;
+}
+
+li > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 300px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.content > li > a img {
+  width: 100%;
+}
+
+.thumbnail {
+  flex: 0 1 660px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.insight-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 0 0 410px;
+  padding: 20px 30px;
+}
+
+.insight-preview h3 {
+  font-weight: 600;
+  text-align: left;
+}
+
+.insight-preview > div > p {
+  max-height: 120px;
+  margin-top: 15px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #3d474b;
+}
+
+.date {
+  margin-top: 15px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #3d474b;
+}
+
+@media screen and (max-width: 767px) {
+  .bg {
+    padding-top: 50px;
+    height: 250px;
+  }
+
+  main {
+    padding: 50px 20px 80px;
+  }
+
+  li > a {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .thumbnail {
+    flex-basis: 250px;
+  }
+
+  .insight-preview {
+    flex-basis: auto;
+  }
+}
