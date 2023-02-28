@@ -1,9 +1,9 @@
 ---
-title: 'How to hire blockchain team'
+title: How to hire blockchain team
 date: 2018-10-14
 draft: false
-image: '/insights/howto-hire-blockshain-team/office.png'
-imagelist: '/insights/howto-hire-blockshain-team/office.png'
+image: office-.png
+imagelist: 'howto-hire-blockshain-team/office-.png'
 description: This insight is a step by step guide how to launch private Ethereum network. It is a great starting point to start experiments and play with different setup and configuration options for your specific needs (block creation time, nodes, etc...).
 ---
 

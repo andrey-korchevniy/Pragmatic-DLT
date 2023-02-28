@@ -2,8 +2,8 @@
 title: 'Setup private Ethereum network in cloud'
 date: 2018-10-18
 draft: false
-image: '/insights/setup_ethereum/ethimage.png'
-imagelist: '/insights/setup_ethereum/ethimage.png'
+image: ethimage.png
+imagelist: 'setup_ethereum/ethimage.png'
 description: This insight is a step by step guide how to launch private Ethereum network. It is a great starting point to start experiments and play with different setup and configuration options for your specific needs (block creation time,  nodes, etc...).
 ---
 

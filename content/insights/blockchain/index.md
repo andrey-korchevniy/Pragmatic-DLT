@@ -1,10 +1,9 @@
 ---
 title: 'Clear Communication and Dynamic Agile Methodology Makes Pragmatic DLT Stand out Exclusively at GoodFirms'
-name: Clear Communication and Dynamic Agile Methodology Makes Pragmatic DLT Stand out Exclusively at GoodFirms
 date: 2019-07-21
 draft: false
-image: '/insights/blockchain/main-block-chain.png'
-imagelist: '/insights/blockchain/main-block-chain.png'
+image: main-block-chain.png
+imagelist: 'blockchain/main-block-chain.png'
 description: Focusing on providing helpful, transparent advice and high-quality Blockchain solutions to the clients in different geographies facilitates Pragmatic DLT as the top Blockchain solutions provider in Canada at GoodFirms.
 ---
 

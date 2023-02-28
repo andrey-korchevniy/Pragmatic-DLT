@@ -2,8 +2,8 @@
 title: 'Pragmatic DLT Makes Exclusive Clutch Leaders List'
 date: 2019-02-08
 draft: false
-image: '/insights/clutchleader/clutch.jpg'
-imagelist: '/insights/clutchleader/clutch.jpg'
+image: clutch.jpg
+imagelist: 'clutchleader/clutch.jpg'
 description: As an innovative software development company with a focus on technical consulting and the fintech industry, we believe that the world economy is undergoing a shift caused by megatrends, particularly decentralization.
 ---
 

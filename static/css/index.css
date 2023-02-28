@@ -1,21 +1,21 @@
-@import url("general.css");
-@import url("header.css");
-@import url("landing/main.css");
-@import url("landing/illustration.css");
-@import url("landing/offering-schema.css");
-@import url("landing/about-us.css");
-@import url("landing/portfolio.css");
-@import url("landing/insights.css");
-@import url("landing/team.css");
-@import url("landing/get-in-touch.css");
-@import url("footer.css");
+@import url('general.css');
+@import url('header.css');
+@import url('landing/main.css');
+@import url('landing/illustration.css');
+@import url('landing/offering-schema.css');
+@import url('landing/about-us.css');
+@import url('landing/portfolio.css');
+@import url('landing/insights.css');
+@import url('landing/team.css');
+@import url('get-in-touch.css');
+@import url('footer.css');
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .content {
-    max-width: 1100px;
+  max-width: 1100px;
 }

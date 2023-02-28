@@ -88,7 +88,7 @@ footer p {
 footer .email {
   margin-bottom: 10px;
   padding-left: 35px;
-  background-image: url('/images/mail.svg');
+  background-image: url('../images/mail.svg');
   background-repeat: no-repeat;
   background-position: 0 center;
   font-family: 'Montserrat', sans-serif;
@@ -116,7 +116,7 @@ footer .offices article {
   margin-right: 60px;
   margin-bottom: 20px;
   padding-left: 35px;
-  background-image: url('/images/academy/location.svg');
+  background-image: url('../images/academy/location.svg');
   background-position: 1px center;
   background-size: 15px 20px;
   background-repeat: no-repeat;

@@ -2,8 +2,8 @@
 title: 'NFT Marketplace tech stack'
 date: 2022-10-23
 draft: false
-image: '/insights/nft-marketplace/office.png'
-imagelist: '/insights/nft-marketplace/ethimage.png'
+image: ../office.png
+imagelist: 'nft-marketplace/ethimage.png'
 description: NFTs or Non-Fungible Tokens are digital assets that are unique and cannot be duplicated or divided. They are stored on a blockchain network, making them tamper-proof and providing their owners with a proof of ownership.
 ---
 

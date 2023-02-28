@@ -2,8 +2,8 @@
 title: 'How to choose blockchain development company?'
 date: 2023-01-31
 draft: false
-image: '/insights/nft-marketplace/office.png'
-imagelist: '/insights/nft-marketplace/ethimage.png'
+image: ../office.png
+imagelist: 'nft-marketplace/ethimage.png'
 description: When it comes to selecting a blockchain development company, there are several important factors to consider. In the world of Non-Fungible Tokens (NFTs), it is crucial to find a company that has the experience and expertise to develop NFT-based solutions, such as NFT minting websites,
 ---
 
