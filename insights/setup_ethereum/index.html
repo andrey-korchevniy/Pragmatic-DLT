@@ -166,7 +166,7 @@
       <div
         class="bg"
         style="
-          background-image: url('ethimage.png');
+          background-image: url('ethimage.webp');
         "></div>
 
       <section class="insight"><h1 id="setup-private-ethereum-network-in-cloud">Setup private Ethereum network in cloud</h1>
@@ -203,7 +203,7 @@ of seal nodes are online</li>
 <span class="bold">And​</span>
 ​ balance is 99 tokens</p>
 <p>Scenario is implemented in the smart contract in the following way:
-<img src="code.png" alt="code">
+<img src="code.webp" alt="code">
 Under the hood the following business logic comes into play:</p>
 <ol>
 <li>Check that sender has brand role (modifier)</li>
@@ -335,9 +335,9 @@ $ ~/go-ethereum/build/bin/geth --datadir seal-node-n/ --syncmode 'full' --port 3
 </li>
 </ol>
 <p>Below you can see console output of three US seal nodes:
-<img src="ethconsole.png" alt="ethconsole">
+<img src="ethconsole.webp" alt="ethconsole">
 Whereas ethstats screen should look like this:
-<img src="ethstats.png" alt="ethstats"></p>
+<img src="ethstats.webp" alt="ethstats"></p>
 <h3 id="running-transactions">Running transactions</h3>
 <p>We encourage you to play with network setup and configuration. Meanwhile, for demonstration purposes we provide a few results obtained with the following configuration:</p>
 <ol>
@@ -348,15 +348,15 @@ Whereas ethstats screen should look like this:
 <h5 id="interval-tests">Interval tests</h5>
 <p>Transactions are submitted periodically(every second).<br>
 500 transactions were accepted by network in 500 in 8161:
-<img src="interval-1.png" alt="intwrval-1">
+<img src="interval-1.webp" alt="intwrval-1">
 300 transactions are accepted by network in 5900:
-<img src="interval-2.png" alt="intwrval-2">
+<img src="interval-2.webp" alt="intwrval-2">
 Sequence tests
 Transactions are executed in batches. Each subsequent batch starts after previous is finished.
 100 transactions each were accepted by network in 5610:
-<img src="sequence-1.png" alt="sequence-1">
+<img src="sequence-1.webp" alt="sequence-1">
 700 transactions are accepted by network in 14937:
-<img src="sequence-1.png" alt="sequence-2">
+<img src="sequence-1.webp" alt="sequence-2">
 As it is stated earlier the main purpose of this article is to cover devops part. Thus, we believe, you will invest more time in understanding Clique tuning it instead of having headache setting it up. Soon we release insight how to tune private setup to get maximum TPS! You are always welcome to reach out for advice to one of our <a href="https://pragmaticdlt.com/">Pragmatic DLT SWAT Teams</a> or <a href="https://pragmaticdlt.com/onlineacademy.html">to add Ethereum platform to your skillset. automotive web design agencies</a> Stay tuned!</p>
 </section>
     </main>

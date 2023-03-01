@@ -26,7 +26,7 @@ body {
   width: 100%;
   height: 400px;
   padding-top: 100px;
-  background-image: url('../images/branded-background.png');
+  background-image: url('../images/branded-background.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }

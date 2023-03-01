@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1920px" height="860px" viewBox="0 0 1920 860" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 3 Copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#F6FAFC" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Main_1200" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Main_1200-Copy-12" fill="url(#linearGradient-1)">
-            <path d="M8.98126018e-12,93.2610645 C640,-31.0870215 1280,-31.0870215 1920,93.2610645 L1920,860 L0,860 C7.5097696e-13,348.84071 3.74473035e-12,93.2610645 8.98126018e-12,93.2610645 Z" id="Rectangle-3-Copy" transform="translate(960.000000, 430.000000) rotate(180.000000) translate(-960.000000, -430.000000) "></path>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="860"><!--Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch--><defs><linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#F6FAFC"/><stop offset="100%" stop-color="#FFF"/></linearGradient></defs><path fill="url(#a)" fill-rule="evenodd" d="M0 93.26c640-124.35 1280-124.35 1920 0V860H0V93.26Z" transform="rotate(180 960 430)"/></svg>
